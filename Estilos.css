@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap');
-
+@font-face {
+    font-family: 'BespokeSerif';
+    src: url('fonts/TTF/BespokeSerif-Variable.ttf') format('truetype');
+}
 body{
-  font-family: helvetica;
+  font-family: 'BespokeSerif', Helvetica, sans-serif;
     margin: 0;
     background-color: #C68ABE;
     
