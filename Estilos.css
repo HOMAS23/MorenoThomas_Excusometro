@@ -13,10 +13,15 @@ header {
     text-align: center;
 
 }
+head p {font-size: 1.5rem ;
+}
 h1{
     color: #781072;
     font-size: 3em;
 }
 main{
    padding: 36px; 
+}
+#pie {
+    font-size: 2em;
 }
