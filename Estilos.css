@@ -1,27 +1,120 @@
-@font-face {
-    font-family: 'BespokeSerif';
-    src: url('fonts/TTF/BespokeSerif-Variable.ttf') format('truetype');
-}
-body{
-  font-family: 'BespokeSerif', Helvetica, sans-serif;
+body {
+    font-family: Helvetica;
     margin: 0;
-    background-color: #C68ABE;
+    background-color: #f2f0e8;
+    color: #171717;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #34372D;
+    color: #f2f0e8;
+    text-align: center;
+    padding: 60px 30px;
+}
+
+header p {
+    color: #F4D1FF;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+nav{
+
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color: #171717;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 30px;
     
 }
-header {
-    padding: 40px;
-    text-align: center;
+
+nav a:hover{
+    color: aqua
+}
+nav .menu {
+    width: 20%;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #d7ff3f;
 
 }
-head p {font-size: 1.5rem ;
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 30px;
 }
-h1{
-    color: #781072;
-    font-size: 3em;
+
+section {
+    background-color: #ffffff;
+    margin-bottom: 24px;
+    padding: 30px;
 }
-main{
-   padding: 36px; 
+
+h2 {
+    color: #171717;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 0;
 }
-#pie {
-    font-size: 2em;
+
+p {
+    margin-bottom: 16px;
+}
+
+ul {
+    line-height: 1.9;
+}
+
+ol {
+    line-height: 1.9;
+}
+
+li {
+    margin-bottom: 8px;
+}
+.excusa{
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.excusa h3{
+    color: #b00020;
+    margin-top: 0;
+}
+#estado{
+    background-color: #171717;
+    color: ghostwhite;
+}
+
+#estado h2{
+    color: ghostwhite;
+}
+
+footer {
+    background-color: #d7ff3f;
+    color: #171717;
+    text-align: center;
+    padding: 24px;
+}
+
+footer p {
+    font-weight: 700;
+    margin: 0;
 }
