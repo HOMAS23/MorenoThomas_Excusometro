@@ -1,14 +1,14 @@
 body {
     font-family: Helvetica;
     margin: 0;
-    background-color: #f2f0e8;
-    color: #171717;
+    background-color: #36304a;
+    color: #ffff;
     font-size: 16px;
     line-height: 1.6;
 }
 
 header {
-    background-color: #34372D;
+    background-color: #4a3852;
     color: #f2f0e8;
     text-align: center;
     padding: 60px 30px;
@@ -34,24 +34,25 @@ nav{
     padding: 15px;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 nav a{
-    color: #171717;
+    color: hsl(0, 0%, 100%);
     font-weight: 700;
     text-decoration: none;
-    margin: 0 30px;
+    
     
 }
 
 nav a:hover{
-    color: aqua
+    color: #f7f731;
 }
 nav .menu {
     width: 20%;
     padding: 1em;
     border-radius: 1em;
-    background-color: #d7ff3f;
+    background-color: #9b59b6;
 
 }
 main {
@@ -61,13 +62,14 @@ main {
 }
 
 section {
-    background-color: #ffffff;
+    background-color: #2b2538;
     margin-bottom: 24px;
     padding: 30px;
+    border-radius: 1em;
 }
 
 h2 {
-    color: #171717;
+    color: #ffffff;
     font-size: 1.8rem;
     font-weight: 700;
     margin-top: 0;
@@ -88,18 +90,26 @@ ol {
 li {
     margin-bottom: 8px;
 }
+.clasicos {
+    display: flex;
+    justify-content: space-between; 
+    gap: 15px; 
+    flex-wrap: wrap;
+}
 .excusa{
-    background-color: #f4f4f4;
+    background-color: #2b2538;
     padding: 20px;
     margin-bottom: 16px;
+    box-sizing: border-box;
+    width: 45%;
 }
 
 .excusa h3{
-    color: #b00020;
+    color: #b680c7;
     margin-top: 0;
 }
 #estado{
-    background-color: #171717;
+    background-color: #4a3852;
     color: ghostwhite;
 }
 
@@ -108,8 +118,8 @@ li {
 }
 
 footer {
-    background-color: #d7ff3f;
-    color: #171717;
+    background-color: #4a3852;
+    color: #ffff;
     text-align: center;
     padding: 24px;
 }
